@@ -10,27 +10,7 @@ public class Calculator extends javax.swing.JFrame {
             result=Integer.parseInt(NumText.getText());
         }
     }
-    private void calculate()
-    {
-        if(press==1)
-        {
-            result = result+Integer.parseInt(NumText.getText());
-        }
-        else if(press==2)
-        {
-            result = result-Integer.parseInt(NumText.getText());
-        }
-        else if(press==3)
-        {
-            result = result/Integer.parseInt(NumText.getText());
-        }
-        else
-        {
-            result = result*Integer.parseInt(NumText.getText());
-        }
-    }
-    public Calculator() {
-       
+    
     }
     @SuppressWarnings("unchecked")
     private void initComponents() {
