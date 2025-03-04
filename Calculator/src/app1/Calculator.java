@@ -175,7 +175,7 @@ public class Calculator extends javax.swing.JFrame {
     private void rfsBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rfsBtnActionPerformed
         result=0;
         NumText.setText("");
-    }//GEN-LAST:event_rfsBtnActionPerformed
+    }
 
     private void resultBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resultBtnActionPerformed
         calculate();
