@@ -2,7 +2,7 @@ package app1;
 
 public class Calculator extends javax.swing.JFrame {
     private int result=0;
-    private int press=0;
+    public int press=0; //t nghĩ chỗ này khai public thì được hơn
     private void temp()
     {
         if(result==0)
